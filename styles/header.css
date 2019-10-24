@@ -19,17 +19,23 @@
   font-size: 12px;
   line-height: 14px; }
 
+.nav__ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .nav__ul__li {
+    margin-left: 20px; }
+    .nav__ul__li:first-child {
+      margin: 0; }
+
 .nav__link {
   text-decoration: none;
   color: #000;
-  margin-left: 17px;
   white-space: nowrap;
   display: inline-block;
   height: 60px;
   line-height: 60px; }
-
-.nav__link:first-child {
-  margin-left: 0; }
 
 .nav__link:hover {
   color: #00acdc; }
