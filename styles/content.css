@@ -5,7 +5,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 1200px;
+  justify-items: center;
   padding: 0 128px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -167,14 +167,8 @@ h1 {
     color: #00acdc;
     cursor: pointer; }
 
-@media screen {
+@media (max-width: 1024px) {
   .container {
-    max-width: screen;
     padding: 0 40px; } }
-
-@media (min-width: 1200px) {
-  .container {
-    padding: 0 128px;
-    max-width: screen; } }
 
 /*# sourceMappingURL=content.css.map */
