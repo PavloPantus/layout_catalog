@@ -1,10 +1,7 @@
 @charset "UTF-8";
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -173,16 +170,11 @@ h1 {
 @media screen {
   .container {
     max-width: screen;
-    padding: 0 128px; } }
+    padding: 0 40px; } }
 
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     padding: 0 128px;
-    max-width: screen; } }
-
-@media (max-width: 1024px) {
-  .container {
-    padding: 0 40px;
     max-width: screen; } }
 
 /*# sourceMappingURL=content.css.map */
